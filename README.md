@@ -7,4 +7,4 @@ devices, address of the robot may not start at 0.0. It's also possible to set no
 PLC project to mitigate that.
 
 **The application can be accessed here:** 
-[https://handycz.github.io/siemens-kuka-address-calculator](https://handy.github.io/siemens-kuka-address-calculator)
+[https://handycz.github.io/siemens-kuka-address-calculator](https://handycz.github.io/siemens-kuka-address-calculator)
