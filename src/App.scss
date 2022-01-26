@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  .container {
+    width: 100%;
+
+    .row {
+      .col {
+        .errorMessage {
+          margin-top: 30px;
+        }
+      }
+    }
+
+
+    .labels {
+      font-size: 30px;
+      text-align: center;
+      input {
+        height: 100%;
+        width: 30%;
+        display: inline-block;
+        float: right;
+        margin-left: -30%;
+      }
+    }
+    .inputs {
+      textarea {
+        min-height: 300px;
+        height: 100%;
+      }
+    }
+    .buttons {
+      button {
+        width: 100%;
+        height: 100px;
+      }
+    }
+  }
+  .lay-aside-area {
+    margin-top: 30px;
+  }
+}
