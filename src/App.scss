@@ -1,18 +1,34 @@
 .App {
   text-align: center;
-  .container {
-    width: 100%;
 
-    .row {
-      .col {
-        .errorMessage {
-          margin-top: 30px;
-        }
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+    .container {
+      width: 50%;
+      display: inline-block;
+
+      textarea {
+        margin-bottom: 10px;
+      }
+
+      button {
+        width: 40%;
+      }
+
+      input {
+        width: 30%;
+        float: right;
+        margin-left: -30%;
       }
     }
 
+    .message-banner {
+      margin-top: 30px;
+    }
 
-    .labels {
+    /*.labels {
       font-size: 30px;
       text-align: center;
       input {
@@ -35,8 +51,10 @@
         height: 100px;
       }
     }
-  }
-  .lay-aside-area {
-    margin-top: 30px;
+  }*/
+    .lay-aside-area {
+      margin-top: 30px;
+    }
+
   }
 }
