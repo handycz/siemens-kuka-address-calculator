@@ -1,4 +1,3 @@
-import {Alert} from "react-bootstrap";
 import StorageArea from "./StorageArea";
 import React, {useState} from "react";
 import KukaAddressConverter from "./KukaAddressConverter";
